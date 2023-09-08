@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+button{
+  transition-property: background-color;
+  transition-duration: 1s;
+  padding: 10px;
+  border-radius: 5px;
+}
+img{
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
